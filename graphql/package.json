@@ -1,0 +1,21 @@
+{
+  "name": "blog-o-sphere-backend",
+  "version": "1.0.0",
+  "description": "A Koa and GraphQL backend for React Blog",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "test"
+  },
+  "author": "Jyotirmay & Bagesh",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-koa": "^2.21.1",
+    "dotenv": "^8.2.0",
+    "graphql-tools": "^4.0.8",
+    "knex": "^0.95.2",
+    "koa": "^2.13.1",
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5"
+  }
+}
